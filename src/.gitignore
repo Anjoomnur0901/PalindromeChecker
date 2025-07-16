@@ -1,0 +1,9 @@
+# Maven build folders
+target/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store

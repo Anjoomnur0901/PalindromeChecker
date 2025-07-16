@@ -1,18 +1,21 @@
-# My Maven Project
+# PalindromeChecker
 
 ## Overview
-This is a simple Maven project that demonstrates the structure and functionality of a basic Java application.
+This is a simple Maven-based Java application that checks whether a given string is a palindrome.  
+It ignores punctuation, spaces, and case sensitivity — for example,  
+`"A man, a plan, a canal: Panama"` is considered a valid palindrome.
 
 ## Project Structure
+
 ```
-my-maven-project
+PalindromeChecker
 ├── src
 │   ├── main
 │   │   └── java
-│   │       └── App.java
+│   │       └──  PalindromeChecker.java
 │   └── test
 │       └── java
-│           └── AppTest.java
+│           └── PalindromeCheckerTest.java
 ├── pom.xml
 └── README.md
 ```
@@ -22,18 +25,12 @@ my-maven-project
 2. Clone the repository or download the project files.
 3. Navigate to the project directory:
    ```
-   cd my-maven-project
+   cd PalindromeChecker
    ```
 4. Build the project using Maven:
    ```
    mvn clean install
    ```
-
-## Usage
-To run the application, use the following command:
-```
-mvn exec:java -Dexec.mainClass="App"
-```
 
 ## Running Tests
 To run the tests, execute:
