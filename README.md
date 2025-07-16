@@ -37,6 +37,3 @@ To run the tests, execute:
 ```
 mvn test
 ```
-
-## License
-This project is licensed under the MIT License.
